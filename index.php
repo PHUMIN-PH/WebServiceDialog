@@ -35,18 +35,22 @@
             </a>
         </div>
     </nav>
+   
+    <Code>
+    <div class="d-flex justify-content-evenly menuHeader">
+        <li class="nav-item active"><a href="#" data-toggle="tab" aria-controls="#" aria-selected="true" role="tab"><i class="fa fa-globe fa-2xl" herf="#" aria-hidden="true">ALL</i></a></li>
+        <li class="nav-item"><a href="#" data-toggle="tab" aria-controls="#2" aria-selected="false" role="tab"><i class="fa fa-server fa-2xl" aria-hidden="true">Server</i></a></li>
+        <li class="nav-item"><a href="#" data-toggle="tab" aria-controls="#3" aria-selected="false" role="tab"><i class="fa fa-th fa-2xl" aria-hidden="true">ISP</i></a></li>
+        <li class="nav-item"><a href="#" data-toggle="tab" aria-controls="#4" aria-selected="false" role="tab"><i class="fa fa-video-camera fa-2xl" aria-hidden="true">CCTV</i></a></li>
+        
+    </div>
+
     <div class="d-flex d-flex justify-content-center">
         <div class="loading-bar "></div>
     </div>
-    <Code>
-    <div class="d-flex justify-content-evenly menuHeader">
-        <a href="#"><i class="fa fa-globe fa-2xl" herf="#" aria-hidden="true">ALL</i></a>
-        <a href=""><i class="fa fa-server fa-2xl" aria-hidden="true">Server</i></a>
-        <a href=""><i class="fa fa-th fa-2xl" aria-hidden="true">ISP</i></a>
-        <a href=""><i class="fa fa-video-camera fa-2xl" aria-hidden="true">CCTV</i></a>
-    </div>
+    
     <div class="container">
-        <div class="card m-5 p-2">
+        <div class="tab-pane fade active show in card m-5 p-2">
             <table class="table table-bordered text-dark">
                 <thead class="fw-bold">
                     <td>No.</td>
@@ -121,6 +125,8 @@
                     $btnSaveData.addClass('active');
                 });
         });
+
+        
     </script>
 </body>
 
